@@ -2,7 +2,6 @@
   "private": true,
   "scripts": {
     "build": "npx @sanity/cli build ../public/studio -y",
-    "env": "cp ../.env .env.development",
     "prestart": "npm run env",
     "start": "npx @sanity/cli start"
   },
